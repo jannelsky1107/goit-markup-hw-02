@@ -2,6 +2,52 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/* Main Page */
+.web {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: var(--iris, #4d5ae5);
+}
+.header-web:hover {
+  color: var(--navyblue, #2e2f42);
+}
+
+.header-studio {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: var(--navyblue, #2e2f42);
+}
+
+.footer-studio {
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: var(--cloud, #f4f4fd);
+}
+.footer-web:hover {
+  color: var(--cloud, #f4f4fd);
+}
+
+.studio:hover {
+  color: var(--iris, #4d5ae5);
+}
+
+.logo {
+  text-decoration: none;
+}
+
 .list {
   list-style: none;
 }
@@ -9,8 +55,7 @@ body {
 .link {
   text-decoration: none;
 }
-.link:hover,
-.link:focus {
+.link:hover {
   color: var(--iris, #4d5ae5);
 }
 
@@ -41,7 +86,6 @@ body {
 
 .sub-title {
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0.72px;
@@ -85,6 +129,53 @@ body {
 
 .address-link {
   font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  color: var(--slate, #434455);
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  color: var(--cloud, #f4f4fd);
+}
+.footer {
+  background: var(--navyblue, #2e2f42);
+}
+
+/* Portfolio Page */
+.portfolio-button {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+  color: var(--iris, #4d5ae5);
+
+  border: 1px solid var(--cornflower, #e7e9fc);
+  background: var(--cloud, #f4f4fd);
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--navyblue, #2e2f42);
+  background: var(--ocean, #404bbf);
+}
+
+.project-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  color: var(--navyblue, #2e2f42);
+}
+
+.bottom-name {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
