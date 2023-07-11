@@ -116,7 +116,7 @@ body {
   font-weight: 400;
   line-height: 1.2;
   text-align: center;
-  background-color: var(--navyblue);
+  color: var(--navyblue);
 }
 
 .team .name {
