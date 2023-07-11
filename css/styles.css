@@ -10,8 +10,8 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  letter-spacing: 0.3em;
+  font-size: 16px;
+  letter-spacing: 0.03em;
   color: var(--slate);
 }
 
@@ -26,7 +26,6 @@ body {
 }
 
 .studio {
-  font-weight: 700;
   color: var(--navyblue);
 }
 
@@ -50,9 +49,9 @@ body {
 .nav-menu .page {
   text-decoration: none;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.14;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
   color: var(--navyblue);
 }
 .nav-menu .page:hover,
@@ -65,10 +64,10 @@ body {
 
 .contacts-menu .item {
   text-decoration: none;
-  font-weight: 500;
-  font-size: 14px;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 1.14;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
   color: var(--slate);
 }
 
@@ -77,23 +76,25 @@ body {
 }
 
 .benefits .title {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 1.14;
   color: var(--navyblue);
 }
 
 .benefits .description {
+  font-size: 16px;
+  font-weight: 400;
   line-height: 1.71;
   color: var(--slate);
 }
 
 .hero-title {
-  font-size: 44px;
+  font-size: 56px;
   text-align: center;
-  font-weight: 900;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.04em;
   color: var(--white);
 }
 
@@ -112,13 +113,16 @@ body {
 .team .name,
 .team .position {
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.2;
   text-align: center;
   background-color: var(--navyblue);
 }
 
 .team .name {
+  font-size: 20px;
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 .team .position {
@@ -128,13 +132,13 @@ body {
 .button {
   font-family: inherit;
   border-color: transparent;
-  letter-spacing: 0.3empx;
+  letter-spacing: 0.03em;
   cursor: pointer;
 }
 
 .button.primary {
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: var(--white);
@@ -144,6 +148,13 @@ body {
 .button.primary:hover,
 .button.primary:focus {
   color: var(--ocean);
+}
+
+.button.filter {
+  font-weight: 400;
+  line-height: 1.62;
+  background-color: var(--cloud);
+  color: var(--iris);
 }
 
 .button.filter:hover,
@@ -162,18 +173,15 @@ body {
 
 /* Portfolio Page */
 
-.project-list {
-  list-style: none;
-}
 .project {
   text-decoration: none;
 }
 
-.project-name {
-  font-size: 18px;
-  font-weight: 700;
+.project .name {
+  font-size: 20px;
+  font-weight: 500;
   line-height: 2;
-  letter-spacing: 0.6em;
+  letter-spacing: 0.04em;
   color: var(--navyblue);
 }
 
