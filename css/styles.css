@@ -151,7 +151,8 @@ body {
 }
 
 .button.filter {
-  font-weight: 400;
+  font-weight: 500;
+  font-size: 16px;
   line-height: 1.62;
   background-color: var(--cloud);
   color: var(--iris);
